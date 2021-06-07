@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: lato, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sideimage {
+  width: 35%;
+  height: 100%;
+  margin-right: 40px;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+}
+
+.rightside {
+  width: 65%;
+  padding: 45px 30px;
+}
+
+.steps {
+  background-color: white;
+  padding: 20px;
+}
+
+
+.step2 {
+    margin-top: 30px
+
+}
+
+.steps p {
+  font-size: 17px;
+}
+
+#signup {
+    font-weight: 700;
+}
+
+.active {
+  background-color: #E8A92E;
+  font-size: 18px;
+
+  width: 40px;
+  height: 40px;
+  border: 2px;
+  border-radius: 10px;
+  color: black;
+}
+
+.topline {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 65%;
+}
+
+.bottomline {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+h2 {
+  margin-left: 15px;
+    font-weight: 800;
+}
+
+p {
+  font-size: 15px;
+  margin-left: 7px;
+}
+
+form {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 10px 60px 20px 10px;
+}
+
+.row1 {
+  padding: 5px;
+  display: flex;
+  width: 70%;
+  gap: 36px;
+
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+input {
+  font-size: 15px;
+  border-radius: 8px;
+  height: 40px;
+outline: none;
+  border: grey 2px solid;
+  padding: 20px 10px;
+}
+
+input:focus {
+    border:#E8A92E 2px solid;
+}
+
+label {
+  font-size: 17px;
+}
+
+div p {
+  display: inline;
+  gap: 6px;
+  padding: 10px;
+  width: 100%;
+  height: 30px;
+}
+
+.next {
+  background-color: #E8A92E;
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 0px 35px;
+  border-radius: 8px;
+  border: none;
+  height: 50px;
+  float: right;
+  margin-top: 10px;
+  cursor: pointer;
+}
